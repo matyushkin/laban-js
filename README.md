@@ -10,7 +10,7 @@ The program uses the improvisation method by [Rudolf von Laban](https://en.wikip
 
 Short YouTube video to understand what Laban Movement is:
 
-https://www.youtube.com/watch?v=OK-7QhORB9k
+[![Laban Movement Efforts](http://img.youtube.com/vi/OK-7QhORB9k/0.jpg)](http://www.youtube.com/watch?v=OK-7QhORB9k "Laban Movement Efforts")
 
 ## How we built it
 Using a popular programming language will allow other contributors to join the writing of open source software.
