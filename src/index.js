@@ -143,7 +143,21 @@ function play() {
       audio_paths_arr.push(s);      
     }
   }
-  alert(audio_paths_arr);
+  //alert(audio_paths_arr);
+  var audio = new Audio(),
+    i = 0;
+  var playlist = audio_paths_arr;
+
+audio.addEventListener('ended', function () {
+    i = ++i < playlist.length ? i : 0;
+    console.log(i)
+    audio.src = playlist[i];
+    audio.play();
+}, true);
+audio.volume = 0.3;
+audio.loop = false;
+audio.src = playlist[0];
+audio.play();
 }
 
 document.getElementById("btn_play").onclick = play;
