@@ -100,15 +100,51 @@ function get_data() {
   if (iterations === "") {
     iterations = ITERATIONS_DEFAULT;
   }
-  alert(combination_str + time_rest + iterations);
+  return [combination_str, time_rest, iterations]
 }
 
 fill_placeholders();
 // document.getElementById("btn_play").onclick = get_data;
 
+var audio_files_arr = [['left ear.mp3', 'left knee.mp3',
+'liver.mp3', 'neck.mp3', 'eyes.mp3', 'head.mp3', 'tongue.mp3',
+'nape.mp3', 'right knee.mp3', 'face.mp3', 'heart.mp3',
+'left heel.mp3', 'left elbow.mp3', 'circulatory system.mp3',
+'stomach.mp3', 'left wrist.mp3', 'left hand.mp3', 'belly.mp3',
+'right elbow.mp3', 'pelvis.mp3', 'right heel.mp3', 'left shoulder.mp3',
+'rib cage.mp3', 'right ear.mp3', 'spine.mp3', 'right hand.mp3',
+'right brush.mp3', 'right shoulder.mp3'], ['free movement.mp3',
+'disclosure.mp3', 'jumping.mp3', 'support change.mp3', 'drop.mp3',
+'imbalance.mp3', 'twisting.mp3', 'turn.mp3'], ['protractedly.mp3',
+'instantly.mp3'], ['hit.mp3', 'touch.mp3', 'press.mp3', 'wave.mp3',
+'slide.mp3', 'wiggle.mp3', 'whiplash.mp3', 'compression.mp3'],
+['single focus.mp3', 'moving focus.mp3'], ['continuous movement.mp3',
+'rebound.mp3', 'impact.mp3', 'impulse.mp3'], ['quadrangle.mp3',
+'point.mp3', 'line.mp3', 'corner.mp3', 'broken line.mp3',
+'triangle.mp3', 'circle.mp3']]
+
+// sleep time expects milliseconds
+function sleep (time) {
+  return new Promise((resolve) => setTimeout(resolve, time));
+}
+
 function play() {
-  var audio = new Audio('audio/figure/circle.mp3');
-  audio.play();
+  let arr = get_data();
+  console.log(arr);
+  let combination_str = arr[0];
+  let time_rest = arr[1];
+  let iterations = arr[2];
+  let audio_paths_arr = [];
+  for (let i = 0; i < iterations; i++) {
+    for (let j = 0; j < combination_str.length; j++) {
+      category = Number(combination_str[j]);
+      audio_file_name = randomChoice(audio_files_arr[category-1]);
+      s = "audio/" + category + "/" + audio_file_name;
+      audio_paths_arr.push(s);      
+    }
+  }
+  alert(audio_paths_arr);
 }
 
 document.getElementById("btn_play").onclick = play;
+
