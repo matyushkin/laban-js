@@ -8,6 +8,10 @@ The coronavirus pandemic caused people to isolate themselves. A long stay at hom
 ## What it does
 The program uses the improvisation method by [Rudolf von Laban](https://en.wikipedia.org/wiki/Rudolf_von_Laban) to introduce a person to his body. Three input-forms represent the input data: 1) a combination of codes from Laban system (a string of numbers), 2) the number of repetitions), 3) delay time in seconds for rest between dance actions. A button under these forms controls the output. When you click on the button, the audiofiles sequence starts to play. This audio files are comands ot virtual trainer. Some illustrations may also be displayed for a better experience.
 
+Short YouTube video to understand what Laban Movement is:
+
+https://www.youtube.com/watch?v=OK-7QhORB9k
+
 ## How we built it
 Using a popular programming language will allow other contributors to join the writing of open source software.
 As a result of work on the project, we want to get a ready-made working application
