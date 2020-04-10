@@ -1,71 +1,149 @@
-.col-sm{
-    font-family: Montserrat;
-    /*background-color: aqua;*/
+.col-sm {
+  font-family: Montserrat;
+  /*background-color: aqua;*/
 }
-.logo{
-    font-size: 25px;
-    /*background-color: blanchedalmond;*/
-    margin-top: 5px;
+.nav {
+  border-color: rgb(229, 229, 229);
+  border-style: solid;
 }
-.navbtn{
-    margin-top: 10px;
-    /*background-color: coral;*/
+.logo {
+  margin-top: 3px;
+  font-weight: 1300;
+  /*background-color: blanchedalmond;*/
 }
-.navbtn a,
-.logo a{
-    color: black;
-    text-decoration: none;
+.navbtn {
+  margin-top: 10px;
+  /*background-color: coral;*/
 }
-.dance{
-    margin-top: 100px;
-    height: 63px;
-    /*background-color: brown;*/
-    font-size: 50px;
-    font-family: Montserrat;
-    background-image: url("D.png");
-    background-repeat: no-repeat;
-    background-size: 60px;
+.navbtn a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
 }
-.ance{
-    margin-left: 50px;
+.logo a {
+  color: black;
+  text-decoration: none;
+  font-size: 35px;
 }
-.about{
-    /*background-color: darkgoldenrod;*/
-    margin-top: 50px;
-    text-align: left;
+.dance {
+  margin-top: 85px;
+  height: 63px;
+  /*background-color: brown;*/
+  font-size: 50px;
+  font-family: Montserrat;
+  background-image: url("D.png");
+  background-repeat: no-repeat;
+  background-size: 60px;
 }
-.text{
-    height: 100%;
-    margin: 0px 100px 0px 80px;
+.ance {
+  margin-left: 50px;
 }
-.ph{
-    /*background-color: darkgreen;*/
-    height: 420px;
-    background-image: url("dancers.jpg");
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-position: bottom left;
+.about {
+  /*background-color: darkgoldenrod;*/
+  margin-top: 70px;
+  text-align: left;
 }
-.let{
-    /*background-color: darksalmon;*/
-    text-align: center;
-    margin-top: 80px;
-    margin-right: 100px;
+.text {
+  height: 100%;
+  font-size: 22px;
+  margin: 0px 0px 0px 80px;
 }
-.letbtn{
-    height: 90px;
-    width: 220px;
-    border-width: 7px;
-    border-style: solid;
-    border-color: rgb(215, 215, 215);
-    font-family: Montserrat;
-    font-size: 40px;
-    background-color: white;
+.ph {
+  /*background-color: darkgreen;*/
+  height: 1420px;
+  background-image: url("back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.letbtn a{
-    color: black;
+.let {
+  /*background-color: darksalmon;*/
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 50px;
 }
-@font-face{
-    font-family: "Montserrat"; 
-    src: url("ofont.ru_Montserrat.ttf") format("truetype");
+.letbtn {
+  height: 90px;
+  width: 220px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: rgb(215, 215, 215);
+  font-family: Montserrat;
+  font-size: 40px;
+  background-color: white;
+}
+.letbtn a {
+  color: black;
+}
+.text1 {
+  height: 100%;
+  font-size: 20px;
+  margin: 60px 0px 0px 0px;
+  text-align: right;
+}
+.text2 {
+  height: 100%;
+  margin: 0px 0px 0px 190px;
+  margin-top: 130px;
+}
+.rudolf {
+  margin-top: 200px;
+  height: 150px;
+  /*background-color: brown;*/
+  font-size: 20px;
+  font-family: Montserrat;
+  background-image: url("rudolf.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  text-align: right;
+}
+.text3 {
+  margin-top: 70px;
+}
+.text4 {
+  margin-top: -100px;
+  text-align: right;
+}
+.letdance {
+  margin-top: 150px;
+  text-align: center;
+  height: 200px;
+  background-image: url("Whatisyourlevel.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.levelbtn {
+  text-align: center;
+}
+.level {
+  height: 50px;
+  width: 150px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgb(233, 91, 48);
+  font-family: Montserrat;
+  font-size: 20px;
+  background-color: white;
+}
+.makedance {
+  margin-top: 50px;
+  text-align: center;
+  height: 70px;
+  background-image: url("Ormakeyouroundance.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.choosedance {
+  text-align: left;
+}
+.choose {
+  font-family: Montserrat;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.choosebtn {
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("ofont.ru_Montserrat.ttf") format("truetype");
 }
