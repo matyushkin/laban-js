@@ -6,19 +6,29 @@
   </head>
 
   <body>
+    <h1>Let's dance with Laban system</h1>
     <div id="app"></div>
     <script src="src/index.js"></script>
+		<p>
+		  <form>
+			What is your level?
+			<p><input name="level" type="radio" value="beginner">Beginner</p>
+			<p><input name="level" type="radio" value="middle">Middle</p>
+			<p><input name="level" type="radio" value="profi">Profi</p>
+			</form>
+		</p>
+    <p>Combination<br />
+    <input type="text" minlength="1" id="combination" /></p>
 
-    Combination<br />
-    <input type="text" minlength="1" name="combination" /><br />
+    <p>Time for rest after one iteration<br />
+    <input type="number" id="time_rest" /></p>
+    
 
-    Time for rest after iteration<br />
-    <input type="number" name="time_rest" />
-    <br />
-
-    Number of repetitions<br />
-    <input type="number" min=1= name=repetitions>
-    <br />
-    <input type="submit" />
+    <p>Тumber of repetitions<br />
+    <input type="number" min="1" id="repetitions" />
+		</p>
+		<input type="button" id="btn_play" value="Let's dance!" />
+		
+		<p><a href= "https://bit.ly/3aZArse">Wiki about what we are doing now</p>
   </body>
 </html>

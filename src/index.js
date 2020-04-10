@@ -1,8 +1,12 @@
+// - get all infp from inputs and buttons
+
 import "./styles.css";
 
 document.getElementById("app").innerHTML = `
-<h1>Hello, Laban!</h1>
-<div>
-  Let's start to dance!
-</div>
 `;
+
+function get_data() {
+  alert(document.getElementById("combination").value);
+}
+
+document.getElementById("btn_play").onclick = get_data;
