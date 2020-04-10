@@ -18,4 +18,5 @@ Now the [original program](https://github.com/techandtech/laban) is only availab
 At further development of the project, we can develope backend-part: a) users can register to save training data, b) view their results, c) can be awarded for their achievements and d) receive personalized recommendations for improving dance technique.
 
 [Our page on DevPost](https://devpost.com/software/laban#updates)
+
 Feel free to suggest your ideas – our team is open for collaboration.
