@@ -6,9 +6,11 @@ This open source project is part of [The Global hack](https://theglobalhack.com/
 The coronavirus pandemic caused people to isolate themselves. A long stay at home causes a problem of low mobility, physical and mental health weakness. Physical exercises could help in this matter. However, the uniformity of exercises in a confined space can also adversely affect the mental state. Unlike fitness and other usual physical activities, dance improvisation involves research work aimed at studying the relationships in the body. One square meter is required for the lessons.
 
 ## What it does
-The program uses the improvisation method by [Rudolf von Laban](https://en.wikipedia.org/wiki/Rudolf_von_Laban) to introduce a person to his body. Three input-forms represent the input data: 1) a combination of codes from Laban system (a string of numbers), 2) the number of repetitions), 3) delay time in seconds for rest between dance actions. A button under these forms controls the output. When you click on the button, the audiofiles sequence starts to play. This audio files are comands ot virtual trainer. Some illustrations may also be displayed for a better experience.
+The program uses the improvisation method by [Rudolf von Laban](https://en.wikipedia.org/wiki/Rudolf_von_Laban) to introduce a person to his body. The user enters three parameters or uses randomly generated ones corresponding to the level of experience with the system. Further, the system composes a personal training program for him and displays in the form of audio commands that the user can perform in his own improvisational style.
 
-Short YouTube video to understand what Laban Movement is:
+Three input-forms represent the input data: 1) a combination of codes from Laban system (a string of numbers), 2) the number of repetitions), 3) delay time in seconds for rest between dance actions. A button under these forms controls the output. When you click on the button, the audiofiles sequence starts to play. This audio files are comands ot a virtual trainer.
+
+Short YouTube video to understand what Laban Movement System is:
 
 [![Laban Movement Efforts](http://img.youtube.com/vi/OK-7QhORB9k/0.jpg)](http://www.youtube.com/watch?v=OK-7QhORB9k "Laban Movement Efforts")
 
