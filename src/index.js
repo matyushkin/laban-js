@@ -6,7 +6,7 @@ document.getElementById("app").innerHTML = `
 function get_data() {
   var combination = document.getElementById("combination").value;
   var time_rest = document.getElementById("time_rest").value;
-  var repetitions = document.getElementById("repetitions").value;
+  var repetitions = document.getElementById("iterations").value;
   alert(combination + time_rest + repetitions);
 }
 
