@@ -1,4 +1,5 @@
-// - get all infp from inputs and buttons
+/*
+ */
 
 import "./styles.css";
 
@@ -6,7 +7,10 @@ document.getElementById("app").innerHTML = `
 `;
 
 function get_data() {
-  alert(document.getElementById("combination").value);
+  var combination = document.getElementById("combination").value;
+  var time_rest = document.getElementById("time_rest").value;
+  var repetitions = document.getElementById("repetitions").value;
+  alert(combination + time_rest + repetitions);
 }
 
 document.getElementById("btn_play").onclick = get_data;
