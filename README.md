@@ -1,6 +1,6 @@
 # laban-js
 
-This open source project is part of [The Global hack](https://theglobalhack.com/) online-event.
+This open source project is part of [The Global hack](https://theglobalhack.com/) online-event. For information about current state of coding please look [project wiki](https://github.com/matyushkin/laban-js/wiki).
 
 ## Inspiration
 The coronavirus pandemic caused people to isolate themselves. A long stay at home causes a problem of low mobility, physical and mental health weakness. Physical exercises could help in this matter. However, the uniformity of exercises in a confined space can also adversely affect the mental state. Unlike fitness and other usual physical activities, dance improvisation involves research work aimed at studying the relationships in the body. One square meter is required for the lessons.
