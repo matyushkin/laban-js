@@ -1,0 +1,71 @@
+.col-sm{
+    font-family: Montserrat;
+    /*background-color: aqua;*/
+}
+.logo{
+    font-size: 25px;
+    /*background-color: blanchedalmond;*/
+    margin-top: 5px;
+}
+.navbtn{
+    margin-top: 10px;
+    /*background-color: coral;*/
+}
+.navbtn a,
+.logo a{
+    color: black;
+    text-decoration: none;
+}
+.dance{
+    margin-top: 100px;
+    height: 63px;
+    /*background-color: brown;*/
+    font-size: 50px;
+    font-family: Montserrat;
+    background-image: url("D.png");
+    background-repeat: no-repeat;
+    background-size: 60px;
+}
+.ance{
+    margin-left: 50px;
+}
+.about{
+    /*background-color: darkgoldenrod;*/
+    margin-top: 50px;
+    text-align: left;
+}
+.text{
+    height: 100%;
+    margin: 0px 100px 0px 80px;
+}
+.ph{
+    /*background-color: darkgreen;*/
+    height: 420px;
+    background-image: url("dancers.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: bottom left;
+}
+.let{
+    /*background-color: darksalmon;*/
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+.letbtn{
+    height: 90px;
+    width: 220px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: rgb(215, 215, 215);
+    font-family: Montserrat;
+    font-size: 40px;
+    background-color: white;
+}
+.letbtn a{
+    color: black;
+}
+@font-face{
+    font-family: "Montserrat"; 
+    src: url("ofont.ru_Montserrat.ttf") format("truetype");
+}
