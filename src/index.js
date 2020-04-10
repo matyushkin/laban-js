@@ -104,4 +104,11 @@ function get_data() {
 }
 
 fill_placeholders();
-document.getElementById("btn_play").onclick = get_data;
+// document.getElementById("btn_play").onclick = get_data;
+
+function play() {
+  var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
+  audio.play();
+}
+
+document.getElementById("btn_play").onclick = play;
