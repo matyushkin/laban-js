@@ -21,8 +21,12 @@ that will generate the necessary sequence of actions for dance improvisation con
 Now the [original program](https://github.com/techandtech/laban) is only available on the local computer as a console application. The task is to create a web site to make it available to other people. Now we use only HTML, CSS and JavaScript to make demo-application on website. 
 
 ## What's next for Laban
-At further development of the project, we can develope backend-part: a) users can register to save training data, b) view their results, c) can be awarded for their achievements and d) receive personalized recommendations for improving dance technique.
+First of all, we want to finish what we did not manage to correctly implement in the current representation of the site: JavaScript code (with frameworks instead of pure JS) and design. Next, we want to provide the site with instructions in more detail so that it should be clear what someone can to do using the site: more examples of movements for people with different backgrounds. When we have a good presentation of the site, we want to add the ability for users to save information about their dances, to make it like a game with awards. In order to make the process even more interesting, we will expand the functionality of the site with other dance improvisation techniques and exercises, so that visitors will have a choice. 
 
+## What kind of impact are you expecting to have with this solution?
+We want people to become more physically and mentally healthy. This is especially important now. A physically unprepared body has poor immunity, and so many people do not like physical exercise because of their uniformity. Even those who do not like physical exercises can perceive Laban technique as entertainment with useful consequences for their well-being. Indeed, for their implementation, only one square meter is enough. We want to create such a system so that users participate in challenges related to the funny dance performance improvisation, communicate through the dance, get acquainted with their own body. Despite the fact that this happens at a distance from each other, people will be closer to each other mentally.
+
+[Current YouTube description](https://youtu.be/6z9MBkoIraU)
 [Our page on DevPost](https://devpost.com/software/laban#updates)
 
 Feel free to suggest your ideas – our team is open for collaboration.
