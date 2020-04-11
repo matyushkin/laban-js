@@ -1,149 +1,163 @@
-.col-sm {
-  font-family: Montserrat;
-  /*background-color: aqua;*/
+.col-sm{
+    font-family: Montserrat;
+    /*background-color: aqua;*/
 }
-.nav {
-  border-color: rgb(229, 229, 229);
-  border-style: solid;
+.nav{
+    border-color: rgb(229, 229, 229);
+    border-style: solid;
 }
-.logo {
-  margin-top: 3px;
-  font-weight: 1300;
-  /*background-color: blanchedalmond;*/
+.logo{
+    margin-top: 3px;
+    font-weight: 1300;
+    /*background-color: blanchedalmond;*/
 }
-.navbtn {
-  margin-top: 10px;
-  /*background-color: coral;*/
+.navbtn{
+    margin-top: 10px;
+    /*background-color: coral;*/
 }
-.navbtn a {
-  color: black;
-  text-decoration: none;
-  font-size: 25px;
+.navbtn a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
 }
-.logo a {
-  color: black;
-  text-decoration: none;
-  font-size: 35px;
+.logo a{
+    color: black;
+    text-decoration: none;
+    font-size: 35px;
 }
-.dance {
-  margin-top: 85px;
-  height: 63px;
-  /*background-color: brown;*/
-  font-size: 50px;
-  font-family: Montserrat;
-  background-image: url("D.png");
-  background-repeat: no-repeat;
-  background-size: 60px;
+.dance{
+    margin-top: 85px;
+    height: 63px;
+    /*background-color: brown;*/
+    font-size: 50px;
+    font-family: Montserrat;
+    background-image: url("D.png");
+    background-repeat: no-repeat;
+    background-size: 60px;
 }
-.ance {
-  margin-left: 50px;
+.ance{
+    margin-left: 50px;
 }
-.about {
-  /*background-color: darkgoldenrod;*/
-  margin-top: 70px;
-  text-align: left;
+.about{
+    /*background-color: darkgoldenrod;*/
+    margin-top: 70px;
+    text-align: left;
 }
-.text {
-  height: 100%;
-  font-size: 22px;
-  margin: 0px 0px 0px 80px;
+.text{
+    height: 100%;
+    font-size: 22px;
+    margin: 0px 0px 0px 80px;
 }
-.ph {
-  /*background-color: darkgreen;*/
-  height: 1420px;
-  background-image: url("back.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.ph{
+    /*background-color: darkgreen;*/
+    height: 1420px;
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.let {
-  /*background-color: darksalmon;*/
-  text-align: center;
-  margin-top: 50px;
-  margin-right: 50px;
+.let{
+    /*background-color: darksalmon;*/
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
 }
-.letbtn {
-  height: 90px;
-  width: 220px;
-  border-width: 7px;
-  border-style: solid;
-  border-color: rgb(215, 215, 215);
-  font-family: Montserrat;
-  font-size: 40px;
-  background-color: white;
+.letbtn{
+    height: 90px;
+    width: 220px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: rgb(215, 215, 215);
+    font-family: Montserrat;
+    font-size: 40px;
+    background-color: white;
 }
-.letbtn a {
-  color: black;
+.letbtn a{
+    color: black;
 }
-.text1 {
-  height: 100%;
-  font-size: 20px;
-  margin: 60px 0px 0px 0px;
-  text-align: right;
+.text1{
+    height: 100%;
+    font-size: 20px;
+    margin: 60px 0px 0px 0px;
+    text-align: right;
 }
-.text2 {
-  height: 100%;
-  margin: 0px 0px 0px 190px;
-  margin-top: 130px;
+.text2{
+    height: 100%;
+    margin: 0px 0px 0px 190px;
+    margin-top: 130px;
 }
-.rudolf {
-  margin-top: 200px;
-  height: 150px;
-  /*background-color: brown;*/
-  font-size: 20px;
-  font-family: Montserrat;
-  background-image: url("rudolf.png");
-  background-repeat: no-repeat;
-  background-size: 150px;
-  text-align: right;
+.rudolf{
+    margin-top: 170px;
+    height: 150px;
+    /*background-color: brown;*/
+    font-size: 20px;
+    font-family: Montserrat;
+    background-image: url("rudolf.png");
+    background-repeat: no-repeat;
+    background-size: 150px;  
+    text-align: right;
 }
-.text3 {
-  margin-top: 70px;
+.text3{
+    margin-top: 70px;
 }
-.text4 {
-  margin-top: -100px;
-  text-align: right;
+.text4{
+    margin-top: 0px;
+    text-align: right;
 }
-.letdance {
-  margin-top: 150px;
-  text-align: center;
-  height: 200px;
-  background-image: url("Whatisyourlevel.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+.letdance{
+    margin-top: 0px;
+    text-align: center;
+    height: 150px;
+    background-image: url("Whatisyourlevel.png");
+    background-repeat: no-repeat;
+    background-size: 100%;  
 }
-.levelbtn {
-  text-align: center;
+.levelbtn{
+    text-align: center;
+}    
+.level{
+    height: 50px;
+    width: 150px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(233, 91, 48);
+    font-family: Montserrat;
+    font-size: 20px;
+    background-color: white;
 }
-.level {
-  height: 50px;
-  width: 150px;
-  border-width: 4px;
-  border-style: solid;
-  border-color: rgb(233, 91, 48);
-  font-family: Montserrat;
-  font-size: 20px;
-  background-color: white;
+.makedance{
+    margin-top: 50px;
+    text-align: center;
+    height: 70px;
+    background-image: url("Ormakeyouroundance.png");
+    background-repeat: no-repeat;
+    background-size: 100%;  
 }
-.makedance {
-  margin-top: 50px;
-  text-align: center;
-  height: 70px;
-  background-image: url("Ormakeyouroundance.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+.choosedance{
+    text-align: left;
 }
-.choosedance {
-  text-align: left;
+.choose{
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-top: 10px;
 }
-.choose {
-  font-family: Montserrat;
-  font-size: 20px;
-  margin-top: 10px;
+.wiki{
+    margin-top: 20px;
 }
-.choosebtn {
+.videoins{
+    margin-top: 50px;
+    height: 200px;
+    background-image: url("V.png");
+    background-repeat: no-repeat;
+    background-size: 100%;  
 }
-@font-face {
-  font-family: "Montserrat";
-  src: url("ofont.ru_Montserrat.ttf") format("truetype");
+.video{
+    margin-top: -100px;
+}
+.choosebtn{
+    margin-top: 20px;
+}
+@font-face{
+    font-family: "Montserrat"; 
+    src: url("ofont.ru_Montserrat.ttf") format("truetype");
 }
